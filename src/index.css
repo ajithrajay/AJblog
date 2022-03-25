@@ -1,13 +1,100 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.3),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url(image/image1.jpg);
+
+  background-size: cover;
+  height: 170vh;
+
+  font-family: "rubik", sans-serif;
+  /* fon */
+  color: #fff;
+  position: relative;
+}
+
+.container {
+  width: 90rem;
+  margin: 0 auto;
+  @media (max-width: 58rem) {
+    width: 80rem;
+  }
+}
+h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+h2 {
+}
+.cards {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2.4rem;
+  @media (max-width: 58rem) {
+    grid-template-columns: 1fr;
+  }
+}
+.card {
+  background-color: #fff;
+  color: #999;
+  border-radius: 1.5rem;
+  padding: 2rem 2rem;
+  margin: 2rem 0;
+}
+p {
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+span {
+  margin-top: 1.2rem;
+  display: block;
+
+  font-size: 2rem;
+  font-weight: 800;
+  text-decoration: none;
+  color: inherit;
+  margin-bottom: 2.4rem;
+}
+ul li {
+  list-style: none;
+}
+.Tick {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+.List-flex {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  padding: 0.5rem;
+  background-color: #eea564;
+  border-radius: 1.2rem;
+  color: #fff;
+}
+a:hover,
+a:active {
+  background-color: #e98b38;
+}
+
+.Trail1 {
+  margin-top: 2.4rem;
 }
