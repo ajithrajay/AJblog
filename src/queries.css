@@ -1,5 +1,0 @@
-.cards {
-  @media (max-width: 90rem) {
-    grid-template-columns: 1fr;
-  }
-}
