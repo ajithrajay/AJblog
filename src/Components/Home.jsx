@@ -1,7 +1,7 @@
 import React from "react";
 import MyComponent from "../icons";
 import { Link } from "react-router-dom";
-import Trail1 from "./Trail1";
+
 function Home() {
   return (
     <div className="container">
