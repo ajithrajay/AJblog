@@ -90,7 +90,7 @@ function Home() {
         Get a Free Trail <Link to="/Trail1">Click Here</Link>
       </span>
       <p>
-        To get your mod <Link to="#"> Telegram</Link>
+        To get your mod <a href="https://t.me/wolfemods"> Telegram</a>
       </p>
     </div>
   );

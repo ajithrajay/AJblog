@@ -8,27 +8,18 @@ html {
 }
 
 body {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.3),
-      rgba(255, 255, 255, 0.3)
-    ),
-    url(image/image1.jpg);
-
-  background-size: cover;
-  height: 170vh;
+  height: 100vh;
 
   font-family: "rubik", sans-serif;
   /* fon */
-  color: #fff;
+  background-color: #fdf2e9;
+  color: #555;
   position: relative;
 }
 
 .container {
   width: 90rem;
   margin: 0 auto;
-  @media (max-width: 58rem) {
-    width: 80rem;
-  }
 }
 h1 {
   text-align: center;
@@ -42,13 +33,10 @@ h1 {
 
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 2.4rem;
-  @media (max-width: 58rem) {
-    grid-template-columns: 1fr;
-  }
 }
 .card {
   background-color: #fff;
-  color: #999;
+  color: #555;
   border-radius: 1.5rem;
   padding: 2rem 2rem;
   margin: 2rem 0;
@@ -85,13 +73,13 @@ a:link,
 a:visited {
   text-decoration: none;
   padding: 0.5rem;
-  background-color: #eea564;
+  background-color: #e98b38;
   border-radius: 1.2rem;
   color: #fff;
 }
 a:hover,
 a:active {
-  background-color: #e98b38;
+  background-color: #cf711f;
 }
 
 .Trail1 {
